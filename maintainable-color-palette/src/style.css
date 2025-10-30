@@ -1,0 +1,176 @@
+:root {
+    --color-primary: hsl(120, 100%, 25%);
+    --color-primary-light: hsl(120, 100%, 90%);
+    --color-primary-dark: hsl(120, 100%, 15%);
+
+    --color-secondary: hsl(330, 100%, 25%);
+    --color-secondary-light: hsl(330, 100%, 90%);
+    --color-secondary-dark: hsl(330, 100%, 15%);
+
+    --color-primary-100: color-mix(in srgb, var(--color-primary-light) 90%, var(--color-primary));
+    --color-primary-200: color-mix(in srgb, var(--color-primary-light) 70%, var(--color-primary));
+    --color-primary-300: color-mix(in srgb, var(--color-primary-light) 50%, var(--color-primary));
+    --color-primary-400: color-mix(in srgb, var(--color-primary-light) 30%, var(--color-primary));
+    --color-primary-500: var(--color-primary);
+    --color-primary-600: color-mix(in srgb, var(--color-primary-dark) 30%, var(--color-primary));
+    --color-primary-700: color-mix(in srgb, var(--color-primary-dark) 50%, var(--color-primary));
+    --color-primary-800: color-mix(in srgb, var(--color-primary-dark) 70%, var(--color-primary));
+
+    --color-secondary-100: color-mix(in srgb, var(--color-secondary-light) 90%, var(--color-secondary));
+    --color-secondary-200: color-mix(in srgb, var(--color-secondary-light) 70%, var(--color-secondary));
+    --color-secondary-300: color-mix(in srgb, var(--color-secondary-light) 50%, var(--color-secondary));
+    --color-secondary-400: color-mix(in srgb, var(--color-secondary-light) 30%, var(--color-secondary));
+    --color-secondary-500: var(--color-secondary);
+    --color-secondary-600: color-mix(in srgb, var(--color-secondary-dark) 30%, var(--color-secondary));
+    --color-secondary-700: color-mix(in srgb, var(--color-secondary-dark) 50%, var(--color-secondary));
+    --color-secondary-800: color-mix(in srgb, var(--color-secondary-dark) 70%, var(--color-secondary));
+
+
+    --bg-dark: #000000;
+    --bg-light: #e6e8f0;
+    --bg-accent: #fff5d7;
+
+
+    --text-light: #f5f5f5;
+    --text-dark: #191970;
+    --text-neutral: #000000;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-dark);
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: var(--bg-light);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.color-scales h2 {
+    text-align: left;
+}
+
+.scale-container {
+    margin-bottom: 20px;
+}
+
+.primary-scale, .secondary-scale {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.color-box {
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    width: 50px;
+    border: 2px solid black;
+}
+
+.primary-scale .color-box:nth-child(1) { background-color: var(--color-primary-100); color: var(--color-primary-dark); }
+.primary-scale .color-box:nth-child(2) { background-color: var(--color-primary-200); color: var(--color-primary-dark); }
+.primary-scale .color-box:nth-child(3) { background-color: var(--color-primary-300); color: var(--color-primary-dark); }
+.primary-scale .color-box:nth-child(4) { background-color: var(--color-primary-400); color: var(--text-light); }
+.primary-scale .color-box:nth-child(5) { background-color: var(--color-primary-500); color: var(--text-light); }
+.primary-scale .color-box:nth-child(6) { background-color: var(--color-primary-600); color: var(--text-light); }
+.primary-scale .color-box:nth-child(7) { background-color: var(--color-primary-700); color: var(--text-light); }
+.primary-scale .color-box:nth-child(8) { background-color: var(--color-primary-800); color: var(--text-light); }
+
+.secondary-scale .color-box:nth-child(1) { background-color: var(--color-secondary-100); color: var(--color-secondary-dark); }
+.secondary-scale .color-box:nth-child(2) { background-color: var(--color-secondary-200); color: var(--color-secondary-dark); }
+.secondary-scale .color-box:nth-child(3) { background-color: var(--color-secondary-300); color: var(--color-secondary-dark); }
+.secondary-scale .color-box:nth-child(4) { background-color: var(--color-secondary-400); color: var(--text-light); }
+.secondary-scale .color-box:nth-child(5) { background-color: var(--color-secondary-500); color: var(--text-light); }
+.secondary-scale .color-box:nth-child(6) { background-color: var(--color-secondary-600); color: var(--text-light); }
+.secondary-scale .color-box:nth-child(7) { background-color: var(--color-secondary-700); color: var(--text-light); }
+.secondary-scale .color-box:nth-child(8) { background-color: var(--color-secondary-800); color: var(--text-light); }
+
+.background-boxes {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.surface-box {
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.surface-box:nth-child(1) { background-color: #494d5f; color: var(--text-light); }
+.surface-box:nth-child(2) { background-color: var(--bg-accent); color: var(--text-neutral); }
+.surface-box:nth-child(3) { background-color: #191970; color: var(--text-light); }
+.surface-box:nth-child(4) { background-color: var(--text-light); color: var(--text-neutral); }
+.surface-box:nth-child(5) { background-color: #2f4f4f; color: var(--text-light); }
+
+.text-box-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.text-box {
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-colors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.text-light {
+    background-color: #2f4f4f;
+    color: var(--text-light);
+}
+
+.text-dark {
+    background-color: var(--bg-accent);
+    color: var(--text-dark);
+}
+
+.brand {
+    background-color: var(--bg-accent);
+    color: var(--text-neutral);
+}
