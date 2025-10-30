@@ -1,7 +1,7 @@
 # Gradients Practice
 
 # Overview
-Uses linear and radial gradients to create layered background samples and UI considerations practice. Demonstrates how gradients can enhance webpage depth and improve user experience.
+Explores linear, radial, and conic gradients to create layered background samples and UI considerations practice. Demonstrates how gradients can enhance webpage depth and improve user experience.
 
 # Key Skills
 - CSS gradients
