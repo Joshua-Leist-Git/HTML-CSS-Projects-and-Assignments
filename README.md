@@ -23,4 +23,4 @@ A collection of small front-end projects built with HTML and CSS. They demonstra
 
 **Joshua Leist**  
 IT Support Professional
-https://github.com/jleist64-droid
+https://github.com/Joshua-Leist-Git
