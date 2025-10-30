@@ -1,0 +1,28 @@
+<div class="wrapper">
+  <form action="https://frontrange.edu" method="GET">
+    <div class="form-group">
+      <label for="first-name">First Name</label>
+      <input type="text" id="first-name" name="first-name" required>
+    </div>
+    <div class="form-group">
+      <label for="last-name">Last Name</label>
+      <input type="text" id="last-name" name="last-name" required>
+    </div>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+    <label for="whats-up">What's Up?</label>
+    <select id="whats-up" name="whats-up" required>
+      <option value="" selected disabled>-- Select an Option --</option>
+      <option value="general">General question</option>
+      <option value="help">Help with an issue</option>
+      <option value="awesome">Nothing, just want to let you know you're awesome</option>
+    </select>
+
+    <label for="message">Your Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</div>

@@ -1,0 +1,93 @@
+body {
+  background-image: url("https://assets.codepen.io/9632/paisley.png");
+  background-repeat: repeat;
+}
+
+nav,
+nav a {
+  color: #fff;
+  background-color: #1a1a1a;
+}
+
+.banner {
+  background-color: #1a1a1a;
+  background-image: url("https://images.unsplash.com/photo-1595589981216-2efa123658f7?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h1 {
+  color: #fff;
+}
+
+article {
+  position: relative;
+  background-color: #fff;
+}
+
+article::after {
+  content: "";
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/angles-top-right.svg");
+  background-repeat: no-repeat;
+  background-size: 80px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* DEMO STYLES FOR ASSIGNMENT */
+
+h1,
+h2 {
+  font-family: "Andada", serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+header,
+main {
+  margin: 0 auto;
+  max-width: 850px;
+  padding: 25px;
+}
+
+nav {
+  align-items: center;
+  border: 1px solid #ccc;
+  display: flex;
+  height: 75px;
+  margin: 25px 0;
+  padding: 0 25px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.banner {
+  align-items: center;
+  border: 1px solid #ccc;
+  display: flex;
+  height: 250px;
+  justify-content: center;
+}
+
+article {
+  border: 1px solid #ccc;
+  margin-bottom: 35px;
+  padding: 2rem;
+}

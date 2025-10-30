@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Webpage With Styles</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <html>
+
+<body>
+  <button id="theme-toggle">Toggle Theme</button>
+
+  <header>
+    <h1>Welcome to My Site</h1>
+  </header>
+
+  <main>
+    <section>
+      <p>Kinfolk pinterest fanny pack kogi yuccie. Vinyl normcore lo-fi, <a href="#">gluten-free knausgaard</a> post-ironic disrupt echo park irony austin neutra sartorial chillwave paleo narwhal. Pop-up knausgaard thundercats hammock master cleanse. Venmo etsy hoodie, tattooed mumblecore williamsburg forage crucifix cray. Helvetica freegan farm-to-table williamsburg tofu PBR&B. Dreamcatcher trust fund DIY, viral freegan PBR&B venmo. Gastropub polaroid drinking vinegar, next level man bun lo-fi gluten-free offal iPhone.</p>
+      <p><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/gene-3.gif" alt="Image"></p>
+      <p>Banh mi tumblr hoodie vinyl. Brooklyn tote bag semiotics, tattooed retro health goth craft beer chicharrones microdosing tofu meh quinoa lomo taxidermy.</p>
+      <p>Fingerstache lo-fi swag cray, pop-up biodiesel ennui aesthetic distillery tacos 8-bit. Street art brooklyn keytar actually. Cornhole synth shoreditch fashion axe etsy, viral bicycle rights hammock affogato heirloom mumblecore waistcoat before they sold out brooklyn. Blue bottle flannel skateboard, synth godard man braid chillwave art party YOLO. Lo-fi slow-carb skateboard salvia, next level sustainable letterpress banjo whatever intelligentsia knausgaard.</p>
+    </section>
+  </main>
+
+ <script>
+  const toggleButton = document.getElementById('theme-toggle');
+  toggleButton.addEventListener('click', () => {
+    const theme = document.documentElement.classList.toggle('dark') ? 'dark' : 'light';
+    document.documentElement.classList.toggle('light', theme === 'light');
+    localStorage.setItem('theme', theme);
+  });
+
+</script>
+  
+</body>
+</html>
+    
+  </body>
+  
+</html>

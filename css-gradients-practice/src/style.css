@@ -1,0 +1,79 @@
+.linear-1 {
+  background: linear-gradient(to right, #fc466b, #3f5efb);
+}
+
+.linear-2 {
+  background: linear-gradient(60deg, #03001e, #7303c0, #ec38bc, #fdeff9);
+}
+
+.linear-3 {
+  background: linear-gradient(
+    to bottom,
+    #004ff9 0%,
+    #004ff9 25%,
+    #fff94c 25%,
+    #fff94c 50%,
+    #004ff9 50%,
+    #004ff9 75%,
+    #fff94c 75%,
+    #fff94c 100%
+  );
+}
+
+.radial-1 {
+  background: radial-gradient(farthest-corner, #ffa17f, #00223e);
+}
+
+.radial-2 {
+  background: radial-gradient(ellipse at 25%, #c6ffdd, #fbd786);
+}
+
+.radial-3 {
+  background: radial-gradient(circle at center, #12c2e9, #c471ed, #f64f59);
+}
+
+.conic-1 {
+  background: conic-gradient(#bc4e9c, #f80759);
+}
+
+.conic-2 {
+  background: conic-gradient(from 45deg, #40e0d0, #ff8c00, #ff0080);
+}
+
+.conic-3 {
+  background: conic-gradient(
+    from 0deg at center,
+    yellow 0deg,
+    yellow 90deg,
+    green 90deg,
+    green 180deg,
+    blue 180deg,
+    blue 270deg,
+    purple 270deg,
+    purple 360deg
+  );
+}
+
+body {
+  padding: 3rem;
+}
+
+section {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+div {
+  align-items: center;
+  border: 1px solid #ccc;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 600;
+  justify-content: center;
+  height: 150px;
+}
+
+hr {
+  margin: 35px 0 25px;
+}

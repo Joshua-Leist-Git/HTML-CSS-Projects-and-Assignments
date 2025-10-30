@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+body {
+  background: linear-gradient(135deg, #0f124a 0%, #1b2360 16%, #515b80 42%, #758391 58%, #e5e3b0 100%);
+}
+
+:root {
+  --bg-gradient-start: #0f124a;
+  --bg-gradient-middle: #1b2360;
+  --bg-gradient-end: #e5e3b0;
+  --header-color: white;
+  --section-bg-color: #fff;
+  --text-color: #515b80;
+  --link-hover-color: #515b80;
+  --border-color: #eaeaea;
+  --font-family: 'Rubik', sans-serif;
+}
+:root.dark {
+  --bg-gradient-start: #000000;
+  --bg-gradient-middle: #1a1a1a;
+  --bg-gradient-end: #333333;
+  --header-color: #45ADFE;
+  --section-bg-color: #2B2F31;
+  --text-color: #45ADFE;
+  --link-hover-color: #cccccc;
+  --font-family: 'Rubik', sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-middle) 16%, var(--bg-gradient-end) 100%);
+}
+
+header {
+  color: var(--header-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 2em;
+  height: 25dvh;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  background-color: var(--section-bg-color);
+  width: min(75ch, 100%);
+  font-size: 1.25em;
+  line-height: 1.5em;
+  padding: 3em;
+  color: var(--text-color);
+}
+
+section a {
+  color: var(--text-color);
+}
+
+section a:hover {
+  text-decoration: none;
+  color: var(--link-hover-color);
+}
+
+section img {
+  border-bottom: 1px solid var(--border-color);
+  border-top: 1px solid var(--border-color);
+  padding: 1.5em 0;
+  width: 100%;
+}
+
+#theme-toggle {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.3em 0.8em;
+  font-size: 0.9em;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid var(--header-color);
+  color: var(--header-color);
+}
+
+@media all and (max-width: 600px) {
+  header {
+    font-size: 1.25em;
+  }
+  section {
+    padding: 1em;
+    background-color: transparent;
+    color: var(--header-color);
+  }
+}

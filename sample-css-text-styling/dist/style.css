@@ -1,0 +1,31 @@
+body {
+  background: #1d3932;
+  padding: 3rem;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.25;
+  font-family: "Roboto", sans-serif;
+}
+
+.gold-heading {
+  color: #ffdd40;
+  font-family: "Merriweather", serif;
+}
+
+.light-green-link {
+  color: #d4e9e2;
+}
+
+.sender {
+  text-align: right;
+}
+
+.sender strong,
+.sender tel,
+.sender a {
+  font-style: normal;
+}
+
+.sender a {
+  color: #00ff00;
+}
