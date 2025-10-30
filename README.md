@@ -3,16 +3,16 @@ A collection of small front-end projects built with HTML and CSS. They demonstra
 
 ## Projects Overview
 
-- Color Palette Practice: CSS color theory and layout consistency
-- Gradients Practice: Applying and customizing CSS gradients
-- Sample Blog - House of Pain: Multi-page blog layout and typography
-- Sample Blog Page 2: Alternate blog styling and navigation practice
-- Sample Blog Page: Blog structure and inline styling
-- Sample Email Styling: HTML email formatting and inline CSS use
-- Sample Header Menu: Navigation bar design and hover effects
-- Sample Info Sheet: Clean information layout and spacing
-- Starbucks Homepage Remake: Recreating a commercial landing page
-- Webpage With CSS Styles: Linking and organizing HTML and CSS files
+- **Color Palette Practice:** CSS color theory and layout consistency
+- **Gradients Practice:** Applying and customizing CSS gradients
+- **Sample Blog - House of Pain:** Multi-page blog layout and typography
+- **Sample Blog Page 2:** Alternate blog styling and navigation practice
+- **Sample Blog Page:** Blog structure and inline styling
+- **Sample Email Styling:** HTML email formatting and inline CSS use
+- **Sample Header Menu:** Navigation bar design and hover effects
+- **Sample Info Sheet:** Clean information layout and spacing
+- **Starbucks Homepage Remake:** Recreating a commercial landing page
+- **Webpage With CSS Styles:** Linking and organizing HTML and CSS files
 
 ## Programs Used
 
