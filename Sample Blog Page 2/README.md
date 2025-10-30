@@ -1,4 +1,4 @@
-# Sample Blog Post 2
+# Sample Blog Page 2
 
 # Overview
 Another article layout that focuses on long-form content styles and various article elements. Works on building responsive page behaviors and clear media placements and readability for users.
